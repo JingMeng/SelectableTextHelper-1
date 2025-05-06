@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         mTvTest = (TextView) findViewById(R.id.tv_test);
         //mTvTest.setTextIsSelectable(true);
 
+        initView();
+
         mSelectableTextHelper = new SelectableTextHelper.Builder(mTvTest)
             .setSelectedColor(getResources().getColor(R.color.selected_blue))
             .setCursorHandleSizeInDp(20)
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        initView();
+
     }
 
     private void initView() {
