@@ -6,7 +6,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.os.Build;
-import android.support.annotation.ColorInt;
 import android.text.Layout;
 import android.text.Spannable;
 import android.text.Spanned;
@@ -19,6 +18,8 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+
+import androidx.annotation.ColorInt;
 
 /**
  * Created by Jaeger on 16/8/30.
