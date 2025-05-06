@@ -20,6 +20,9 @@ import io.noties.markwon.html.HtmlPlugin;
 
 /**
  * 1. 点击空白消失(主要就是可以被消失补充一下)
+ *
+ * https://github.com/itsCoder/weeklyblog
+ *
  */
 public class MainActivity extends AppCompatActivity {
 
